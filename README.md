@@ -2,11 +2,11 @@
 
 **SkImageResizer** 是一個可以調整圖片大小的主控台專案，專案中有 50 張範例圖片。該程式並沒有使用**非同步**的方法，我們想讓同學們使用第一天所學的非同步觀念與技巧。
 
-> 此專案使用 [SkiaSharp](https://github.com/mono/SkiaSharp) 套件對圖片進行縮放作業。
+> 此專案使用 [.NET Core 3.1](https://dotnet.microsoft.com/download) 與跨平台的 [SkiaSharp](https://github.com/mono/SkiaSharp) 套件對圖片進行縮放作業。
 
 ## 任務說明
 
-在 **SkImageResizer** 專案中有兩個檔案：
+該專案中有兩個檔案：
 
 1. `Program.cs`
 
@@ -17,6 +17,8 @@
     目前的 `ResizeImagesAsync` 非同步方法，其實是直接複製 `ResizeImages` 同步方法的內容而已，並不是「真」非同步方法喔！
 
     請修改 `ResizeImagesAsync` 非同步方法，用比較有效率的方式執行圖片縮放功能！
+
+> 這個 **SkImageResizer** 專案為 .NET Core 3.1 專案類型，請務必安裝 **.NET Core 工作負載**才能在 Visual Studio 2019 進行開發。若使用 Visual Studio Code 進行開發，請安裝 [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) 擴充套件。
 
 ## 執行方式
 
