@@ -22,11 +22,19 @@
 
 ## 執行方式
 
-```sh
-cd SkImageResizer
-dotnet restore
-dotnet run -c Release
-```
+1. 下載原始碼
+
+    ```sh
+    git clone https://github.com/coolrare/SkImageResizer.git
+    cd SkImageResizer
+    ```
+
+2. 執行程式
+
+    ```sh
+    cd SkImageResizer
+    dotnet run -c Release
+    ```
 
 ## 繳交作業
 
@@ -51,7 +59,16 @@ dotnet run -c Release
 
 **SkImageResizer.Benchmark** 專案已經將測試的方法寫好，他會分析同步與非同步程式的執行效率，並提供完整的測試結果報告。執行的方式與步驟如下：
 
-```sh
-cd SkImageResizer.Benchmark
-dotnet run -c Release
-```
+1. 下載原始碼
+
+    ```sh
+    git clone https://github.com/coolrare/SkImageResizer.git
+    cd SkImageResizer
+    ```
+
+2. 執行程式
+
+    ```sh
+    cd SkImageResizer.Benchmark
+    dotnet run -c Release
+    ```
